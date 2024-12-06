@@ -36,13 +36,47 @@ h2 {
 }
 
 .skills {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
 
+.skills p {
+    width:50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
 }
 
 .projects {
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.projects img {
+    width: 150px;
+    height: 200px;
+    border-radius: 25%;
+    border: 2px solid rgb(126, 14, 201);
 
 }
 
+.projects p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 125%;
+}
+
 .contact {
-    
+    display:flex;
+    flex-wrap:wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: center;
 }
